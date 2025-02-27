@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 📌 Charger les données
-df = pd.read_csv("C:/Users/devea/Downloads/final_fr.csv")
+df = pd.read_csv("final_fr.csv")
 test_scaled = pd.read_csv("C:/Users/devea/Downloads/reco_film (2).csv")
 df_final5 = pd.read_csv("C:/Users/devea/Downloads/df_final10.csv")
 
